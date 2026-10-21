@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#151716">
+  <meta name="description" content="RUDVED.EV forklift sales, rentals, servicing and material handling solutions.">
+  <title>RUDVED.EV | Forklifts & Material Handling</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <span>ENGINEERED FOR INDUSTRY.</span>
+    <span>Forklift Sales · Rentals · Service</span>
+  </div>
+
+  <header class="header">
+    <a href="#home" class="brand">
+      <span class="brand-mark">R</span>
+      <span>RUDVED<span class="brand-dot">.EV</span>
+        <small>INDUSTRIAL MOBILITY</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#products">Forklifts</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">GET A QUOTE ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span></span> MATERIAL HANDLING REDEFINED</div>
+        <h1>POWER YOUR<br>NEXT <span>MOVE.</span></h1>
+        <p>
+          Smart lifting solutions for warehouses, factories and
+          businesses that refuse to stand still.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-yellow">EXPLORE FORKLIFTS ↗</a>
+          <a href="#contact" class="btn btn-outline">TALK TO OUR TEAM</a>
+        </div>
+        <div class="hero-note">
+          <span class="live-dot"></span>
+          SALES <i>·</i> RENTALS <i>·</i> SERVICE & SUPPORT
+        </div>
+      </div>
+      <div class="hero-index">RUDVED.EV / 001</div>
+      <a href="#products" class="scroll-cue">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>01</strong><span>FORKLIFT SALES</span></div>
+      <div><strong>02</strong><span>FLEXIBLE RENTALS</span></div>
+      <div><strong>03</strong><span>SPARE PARTS</span></div>
+      <div><strong>04</strong><span>MAINTENANCE</span></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> THE PRODUCT RANGE</div>
+          <h2>BUILT TO <span>MOVE MORE.</span></h2>
+        </div>
+        <p>Find the right machine for your operation, space and lifting needs.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">ALL MACHINES</button>
+        <button class="filter" data-filter="electric">ELECTRIC</button>
+        <button class="filter" data-filter="diesel">DIESEL</button>
+        <button class="filter" data-filter="warehouse">WAREHOUSE</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal" data-category="electric">
+          <div class="product-image">
+            <span class="product-tag">ELECTRIC SERIES</span>
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=900&q=85"
+              alt="Industrial electric equipment in a work environment" loading="lazy">
+            <span class="image-number">01 / E</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">CLEAN. QUIET. EFFICIENT.</p>
+            <h3>Electric Forklifts</h3>
+            <p>For indoor operations, warehouses and environments where low-emission handling matters.</p>
+            <div class="spec-row">
+              <div><small>CAPACITY</small><strong>Model dependent</strong></div>
+              <div><small>POWER</small><strong>Battery electric</strong></div>
+            </div>
+            <button class="text-link enquire-product" data-product="Electric Forklift">ENQUIRE ABOUT THIS ↗</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="diesel">
+          <div class="product-image">
+            <span class="product-tag">HEAVY-DUTY SERIES</span>
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+              alt="Industrial warehouse and material handling operations" loading="lazy">
+            <span class="image-number">02 / D</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">STRENGTH FOR DEMANDING WORK.</p>
+            <h3>Diesel Forklifts</h3>
+            <p>Explore lifting solutions for outdoor yards, industrial sites and demanding shifts.</p>
+            <div class="spec-row">
+              <div><small>CAPACITY</small><strong>Model dependent</strong></div>
+              <div><small>POWER</small><strong>Diesel engine</strong></div>
+            </div>
+            <button class="text-link enquire-product" data-product="Diesel Forklift">ENQUIRE ABOUT THIS ↗</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="warehouse">
+          <div class="product-image">
+            <span class="product-tag">WAREHOUSE SERIES</span>
+            <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=900&q=85"
+              alt="Warehouse storage and industrial logistics" loading="lazy">
+            <span class="image-number">03 / W</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">PRECISION IN EVERY AISLE.</p>
+            <h3>Warehouse Equipment</h3>
+            <p>Discover material handling options for stock movement, storage and tight spaces.</p>
+            <div class="spec-row">
+              <div><small>APPLICATION</small><strong>Indoor logistics</strong></div>
+              <div><small>OPTIONS</small><strong>By requirement</strong></div>
+            </div>
+            <button class="text-link enquire-product" data-product="Warehouse Equipment">ENQUIRE ABOUT THIS ↗</button>
+          </div>
+        </article>
+      </div>
+
+      <p class="disclaimer">
+        Product imagery is illustrative. Availability, specifications and capacity
+        depend on the selected machine. Confirm details with our team.
+      </p>
+    </section>
+
+    <section class="solutions-section" id="solutions">
+      <div class="section section-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> ONE PARTNER. EVERY LIFT.</div>
+          <h2>MORE THAN <span>MACHINES.</span></h2>
+        </div>
+        <p>From choosing equipment to keeping it running, we help you plan the next move.</p>
+      </div>
+
+      <div class="solution-grid">
+        <article class="solution-card reveal">
+          <span class="solution-number">01</span>
+          <span class="solution-icon">↗</span>
+          <h3>BUY</h3>
+          <p>Explore equipment options suited to your load, operating hours and site conditions.</p>
+          <a href="#contact">FIND YOUR MACHINE ↗</a>
+        </article>
+        <article class="solution-card reveal">
+          <span class="solution-number">02</span>
+          <span class="solution-icon">◷</span>
+          <h3>RENT</h3>
+          <p>Discuss short-term or longer-term rental options based on your business needs.</p>
+          <a href="#contact">DISCUSS RENTAL ↗</a>
+        </article>
+        <article class="solution-card reveal">
+          <span class="solution-number">03</span>
+          <span class="solution-icon">⚙</span>
+          <h3>SERVICE</h3>
+          <p>Ask about maintenance, replacement parts and support for your equipment.</p>
+          <a href="#contact">REQUEST SUPPORT ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="spec-section" id="about">
+      <div class="spec-image reveal">
+        <img src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1100&q=85"
+          alt="Industrial engineering and technical equipment" loading="lazy">
+        <div class="image-caption">PRECISION IN EVERY OPERATION.</div>
+      </div>
+      <div class="spec-content reveal">
+        <div class="eyebrow"><span></span> THE RIGHT FIT MATTERS</div>
+        <h2>YOUR LOAD.<br>YOUR SPACE.<br><span>YOUR SOLUTION.</span></h2>
+        <p>
+          The right forklift depends on more than lifting capacity.
+          Load dimensions, lift height, aisle width, surface conditions
+          and operating hours all matter.
+        </p>
+        <div class="spec-list">
+          <div><span>01</span><strong>Lifting capacity</strong><span>Match the load</span></div>
+          <div><span>02</span><strong>Lift height</strong><span>Fit your racking</span></div>
+          <div><span>03</span><strong>Power type</strong><span>Electric or diesel</span></div>
+          <div><span>04</span><strong>Operating space</strong><span>Indoor or outdoor</span></div>
+        </div>
+        <a href="#contact" class="btn btn-yellow">DISCUSS YOUR REQUIREMENTS ↗</a>
+      </div>
+    </section>
+
+    <section class="cta-band reveal">
+      <div>
+        <div class="eyebrow"><span></span> READY TO GET MOVING?</div>
+        <h2>LET'S LIFT YOUR<br><span>BUSINESS FORWARD.</span></h2>
+      </div>
+      <a href="#contact" class="btn btn-yellow">GET A QUOTE ↗</a>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> LET'S TALK BUSINESS</div>
+          <h2>WHAT DO YOU <span>NEED?</span></h2>
+        </div>
+        <p>Tell us what you need. Our team can follow up about equipment, rentals or service.</p>
+      </div>
+
+      <div class="contact-layout">
+        <form class="enquiry-form reveal" id="enquiryForm">
+          <div class="form-grid">
+            <label>YOUR NAME
+              <input type="text" name="name" placeholder="Enter your full name" required>
+            </label>
+            <label>COMPANY NAME
+              <input type="text" name="company" placeholder="Your company">
+            </label>
+            <label>PHONE NUMBER
+              <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX"
+                pattern="[+0-9() -]{8,18}" required>
+            </label>
+            <label>WHAT DO YOU NEED?
+              <select name="interest" id="interest" required>
+                <option value="">Select a requirement</option>
+                <option>Purchase a forklift</option>
+                <option>Rent a forklift</option>
+                <option>Electric forklift</option>
+                <option>Diesel forklift</option>
+                <option>Warehouse equipment</option>
+                <option>Spare parts</option>
+                <option>Maintenance and service</option>
+              </select>
+            </label>
+            <label class="full-width">YOUR REQUIREMENTS
+              <textarea name="message" rows="4"
+                placeholder="Tell us about load capacity, lift height, location and rental duration..."></textarea>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-yellow submit-btn">
+            SEND ENQUIRY VIA WHATSAPP ↗
+          </button>
+          <p class="form-note">Your message will open in WhatsApp for you to review and send.</p>
+        </form>
+
+        <aside class="contact-aside reveal">
+          <div class="contact-card">
+            <span class="aside-label">DIRECT CONTACT</span>
+            <h3>Let's find<br>your next lift.</h3>
+            <p>Contact us about machine availability, rental requirements, service or spare parts.</p>
+            <a href="#" class="btn btn-outline whatsapp-link" target="_blank" rel="noopener">
+              CHAT ON WHATSAPP ↗
+            </a>
+          </div>
+          <div class="contact-detail">
+            <span>BUSINESS</span>
+            <strong>RUDVED.EV</strong>
+          </div>
+          <div class="contact-detail">
+            <span>SALES · RENTALS · SERVICE</span>
+            <strong>Industrial material handling</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand">
+      <span class="brand-mark">R</span>
+      <span>RUDVED<span class="brand-dot">.EV</span>
+        <small>INDUSTRIAL MOBILITY</small>
+      </span>
+    </a>
+    <p>BUILT FOR THE WORK THAT MOVES US.</p>
+    <span>© <span id="year"></span> RUDVED.EV. All rights reserved.</span>
+  </footer>
+
+  <a href="#" class="floating-whatsapp whatsapp-link"
+    target="_blank" rel="noopener" aria-label="Contact RUDVED.EV on WhatsApp">
+    WA
+  </a>
+
+</body>
+</html>
